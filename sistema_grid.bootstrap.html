@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" href="../projetos_bootstrap/projeto_01/css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <title>Bootstrap - Sistemas de grid</title>
+
+    <style>
+        .marcador{
+            background: #fe9d9d;
+            border: 1px solid #f94646;
+            height: 120px;
+        }
+
+        .marcador-container{
+            background: #5bf946;
+            border: 1px solid #36ae26;
+        }
+        .borda{
+            border: 1px solid blue;
+        }
+    </style>
+  </head>
+  <body style="margin-bottom: 200px; padding: 16px;">
+    <div class="marcador marcador-container">
+
+        <!-- criar uma linha row-->
+        <div class="row" style="margin:1%">
+            
+                <!--
+                <div class="marcador col-6 col-sm-2 col-md-10 col-lg-2 col-xl-10">Área 1</div>
+                <div class="marcador col-6 col-sm-10 col-md-2 col-lg-10 col-xl-2" >Área 2</div>
+                -->
+                <div class="col-md-6 col-xl-4 marcador">
+                    <h2>Lorem Ipsum</h2>
+                        <p>
+                            Lorem ipsum is placeholder text commonly used in the graphic, 
+                            print, and publishing industries for previewing layouts and visual mockups.
+
+                        </p>
+               </div>
+
+               <div class="col-md-6 col-xl-4 marcador">
+                <h2>Lorem Ipsum</h2>
+                    <p>
+                        Lorem ipsum is placeholder text commonly used in the graphic, 
+                        print, and publishing industries for previewing layouts and visual mockups.
+
+                    </p>
+
+               </div>
+               
+               <div class="col-md-6 col-xl-4 marcador">
+                <h2>Lorem Ipsum</h2>
+                    <p>
+                        Lorem ipsum is placeholder text commonly used in the graphic, 
+                        print, and publishing industries for previewing layouts and visual mockups.
+
+                    </p>
+
+               </div>
+
+
+
+               
+                
+        </div>
+
+
+       
+
+
+    </div>
+
+    <div class="container marcador-container mt-3">
+        <h2>Largura Fixa grid-latout</h2>
+        <div class="row">
+            <div class="col marcador">área 1</div>
+            <div class="col marcador">área 2</div>
+            <div class="col marcador">área 3</div>
+            <div class="col marcador">área 4</div>
+        </div>
+    </div>
+    
+    
+    <div class="container marcador-container mt-3">
+        <h2>Largura Automática grid-latout</h2>
+        <div class="row">
+            <div class="col-1 marcador">área 1</div>
+            <div class="col-6 marcador">área 2</div>
+            <div class="col-2 marcador">área 3</div>
+            <div class="col-3 marcador">área 4</div>
+        </div>
+    </div>
+    
+    <div class="container marcador-container mt-3">
+        <h2>Largura Empilhada grid-latout</h2>
+        <div class="row">
+            <div class="col-sm marcador">área 1</div>
+            <div class="col-sm marcador">área 2</div>
+            <div class="col-sm marcador">área 3</div>
+            <div class="col-sm marcador">área 4</div>
+        </div>
+    </div>
+
+    
+    <div class="container marcador-container mt-3">
+        <h2>Largura Fixa grid-latout</h2>
+        <div class="row">
+            <div class="col marcador">área 1</div>
+            <div class="col marcador">área 2</div>
+            <div class="col marcador">área 3</div>
+            <div class="col marcador">área 4</div>
+        </div>
+    </div>
+    
+    
+    <div class="container marcador-container mt-3">
+        <h2>Ordenando grid-latout</h2>
+        <div class="row">
+            <div class="col marcador order-2">área 1</div>
+            <div class="col marcador order-3">área 2</div>
+            <div class="col marcador order-4">área 3</div>
+            <div class="col marcador order-1">área 4</div>
+        </div>
+    </div>
+
+    
+    <div class="container marcador-container mt-3">
+        <h2>Offset grid-latout</h2>
+        <div class="row">
+            <div class="col-md-6 marcador offset-md-3"> Login</div>
+            
+        </div>
+    </div>
+    
+    <div class="container marcador-container mt-3">
+        <h2>Offset Múltiplos alinhamentos grid-latout</h2>
+        <div class="row">
+            <div class="col-md-3 marcador">área 1</div>
+            <div class="col-md-3 offset-md-3 marcador">área 2</div>
+          
+        </div>
+    </div>
+
+    
+    <div class="container marcador-container mt-3">
+        <h2>Alinhamento grid-latout</h2>
+        <div class="row">
+            <div class="col-md-6" style="border: 1px solid yellow;">área 1
+
+
+                <div class="row">
+                    <div class="col-md-6 marcador"> Conteudo 1</div>
+                </div>
+            </div>
+           
+            
+        </div>
+    </div>
+
+    <!-- Alinhamento grid -->
+    
+    <!-- Alinhamento vertical-->
+
+    <div class="container marcador-container mt-3">
+        <h2>Alinhamento vertical Linha</h2>
+        <div class="marcador row align-items-center">
+            <div class="col borda">área 1</div>
+            <div class="col borda">área 2</div>
+            <div class="col borda">área 3</div>
+            <div class="col borda">área 4</div>
+        </div>
+    </div>
+
+    <!-- Alinhamento vertical-->
+
+    <div class="container marcador-container mt-3">
+        <h2>Alinhamento vertical Coluna</h2>
+        <div class="marcador row align-items-center">
+            <div class="col borda align-self-start">área 1</div>
+            <div class="col borda align-self-center">área 2</div>
+            <div class="col borda align-self-end">área 3</div>
+        
+        </div>
+    </div>
+
+     <!-- Alinhamento vertical coluna-->
+
+     <div class="container marcador-container mt-3">
+        <h2>Alinhamento horizontal coluna </h2>
+        <div class="marcador row justify-content-end">
+            <div class="col-2 borda">área 1</div>
+            <div class="col-2 borda ">área 2</div>
+            <div class="col-2 borda ">área 3</div>
+        
+        </div>
+    </div>
+
+     <!-- Distribuição-->
+
+     <div class="container marcador-container mt-3">
+        <h2>Alinhamento Distribuição between </h2>
+        <div class="marcador row justify-content-between">
+            <div class="col-2 borda ">área 1</div>
+            <div class="col-2 borda ">área 2</div>
+            <div class="col-2 borda ">área 3</div>
+        
+        </div>
+    </div>
+
+    <div class="container marcador-container mt-3">
+        <h2>Alinhamento Distribuição Around </h2>
+        <div class="marcador row justify-content-around">
+            <div class="col-2 borda ">área 1</div>
+            <div class="col-2 borda ">área 2</div>
+            <div class="col-2 borda ">área 3</div>
+        
+        </div>
+    </div>
+
+    <!-- Removendo espaçamentos -->
+    <div class="container marcador-container mt-3">
+        <h2>Removendo Espaçamentos </h2>
+        <div class="marcador row no-gutters">
+            <div class="col-2 borda ">área 1</div>
+            <div class="col-2 borda ">área 2</div>
+            <div class="col-2 borda ">área 3</div>
+        
+        </div>
+    </div>
+
+
+
+
+    
+    
+    
+    
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"> </script>
+  </body>
+</html>

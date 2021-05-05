@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+
+    <title>Barras de Navegação</title>
+
+  </head>
+  <body style="margin-bottom: 200px; padding: 16px;">
+    <!-- Navegação
+
+        Tipos de navegação:
+        nav-pills
+        nav-tabs
+
+        opções de alinhamento:
+        justify-content-center
+        justify-content-end
+        flex-column
+
+    -->
+
+    <h2>Navegação simples / abas</h2>
+    <ul class="nav nav-tabs ">
+        <li class="nav-item">
+            <a href=""class="nav-link active">Home</a>
+        </li>
+        <li class="nav-item">
+            <a href=""class="nav-link">sobre</a>
+        </li>
+        <li class="nav-item">
+            <a href=""class="nav-link">serviços</a>
+        </li>
+        <li class="nav-item">
+            <a href=""class="nav-link">sair</a>
+        </li>
+       
+    </ul>
+
+    <h2>Barra de Navegação / abas</h2>
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <a href=""class="navbar-brand">Chalé Hotel</a>
+
+            
+        <ul class="navbar-nav ml-auto">
+            <li class="navbar-item">
+                <a href=""class="nav-link ">Home</a>
+            </li>
+            <li class="navbar-item">
+                <a href=""class="nav-link">sobre</a>
+            </li>
+            <li class="navbar-item">
+                <a href=""class="nav-link">serviços</a>
+            </li>
+            <li class="navbar-item">
+                <a href=""class="nav-link">sair</a>
+            </li>
+       
+         </ul>
+    </nav>
+
+
+
+
+    <h2>Barra de Navegação com menu responsivo menu-hamburguer</h2>
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <a href=""class="navbar-brand">Chalé Hotel</a>
+
+        <!-- menu hamburguer -->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target1">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+         <div class="collapse navbar-collapse" id="nav-target1">   
+            <ul class="navbar-nav ml-auto">
+                <li class="navbar-item">
+                    <a href=""class="nav-link ">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a href=""class="nav-link">sobre</a>
+                </li>
+                <li class="navbar-item">
+                    <a href=""class="nav-link">serviços</a>
+                </li>
+                <li class="navbar-item">
+                    <a href=""class="nav-link">sair</a>
+                </li>
+        
+            </ul>
+         </div>
+    </nav>
+
+    
+
+
+    <h2>Barra de Navegação com formulário</h2>
+
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <a href=""class="navbar-brand">Chalé Hotel</a>
+
+        <!-- menu hamburguer -->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+         <div class="collapse navbar-collapse" id="nav-target">   
+            <ul class="navbar-nav ml-auto">
+                <li class="navbar-item">
+                    <a href=""class="nav-link ">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a href=""class="nav-link">sobre</a>
+                </li>
+                <li class="navbar-item">
+                    <a href=""class="nav-link">serviços</a>
+                </li>
+                <li class="navbar-item">
+                    <a href=""class="nav-link">sair</a>
+                </li>
+        
+            </ul>
+            <form class="form-inline">
+                <input type="text" class="form-control" placeholder="pesquisar...">
+                <button class="btn btn-outline-success">ok</button>
+   
+            </form>
+         </div>
+    </nav>
+
+    <h2>Barra de navegação com menu dropdown</h2>
+    <nav class="navbar navbar-expand-sm navbar-light bg-success">
+        <a href=""class="navbar-brand">Chalé Hotel</a>
+
+        <!-- menu hamburguer -->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target3">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+         <div class="collapse navbar-collapse ml-auto" id="nav-target3">   
+            <ul class="navbar-nav">
+                <li class="navbar-item">
+                    <a href=""class="nav-link ">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a href=""class="nav-link">sobre</a>
+                </li>
+                <li class="navbar-item">
+                    <a href=""class="nav-link">serviços</a>
+                </li>
+                <li class="navbar-item dropdown">
+                    <a href=""class="nav-link dropdown-toggle" data-toggle="dropdown">sair</a>
+                    <div class="dropdown-menu">
+                      
+                            <a href="" class="dropdown-item">sfdfnçanças</a>
+
+                            <a href="" class="dropdown-item">sfdfnçanças</a>
+                       
+                    </div>
+                </li>
+        
+            </ul>
+     
+         </div>
+    </nav>
+
+         
+    
+    
+  
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"> </script>
+  </body>
+</html>
